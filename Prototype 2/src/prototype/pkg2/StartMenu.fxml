@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="prototype.pkg2.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="500.0" fitWidth="700.0">
+         <image>
+            <Image url="@../../../../../../Desktop/TEK%20Bygning.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="startBtn" layoutX="286.0" layoutY="197.0" onAction="#StartButton" prefHeight="53.0" prefWidth="128.0" text="Start" />
+      <Label layoutX="14.0" layoutY="14.0" text="Welcome to SDUVejviser!" textAlignment="CENTER" textFill="#0c05ff">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="quitBtn" layoutX="286.0" layoutY="260.0" mnemonicParsing="false" onAction="#QuitButton" prefHeight="53.0" prefWidth="128.0" text="Quit" />
+      <ImageView fitHeight="91.0" fitWidth="200.0" layoutY="67.0">
+         <image>
+            <Image url="@../../../../../../Desktop/SDU.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
