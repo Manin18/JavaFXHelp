@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="310.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prototype.pkg2.FXMLDocumentController">
+   <children>
+      <ListView fx:id="inventoryList" layoutX="25.0" layoutY="62.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="50.0" layoutY="9.0" text="Inventory">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="inventoryBackBtn" layoutX="105.0" layoutY="271.0" mnemonicParsing="false" onAction="#BackButton" text="Back" />
+   </children>
+</AnchorPane>

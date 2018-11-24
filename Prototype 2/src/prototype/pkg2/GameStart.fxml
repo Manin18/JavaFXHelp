@@ -12,7 +12,7 @@
             <Image url="@../../Start.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="gangBtn" layoutX="273.0" layoutY="318.0" mnemonicParsing="false" onAction="#GangButton" prefHeight="33.0" prefWidth="57.0" text="Go" />
-      <Button fx:id="inventoryBtn" layoutX="279.0" layoutY="14.0" mnemonicParsing="false" onAction="#InventoryButton" prefHeight="46.0" prefWidth="102.0" text="Inventory" />
+      <Button fx:id="oneBtn" layoutX="273.0" layoutY="318.0" mnemonicParsing="false" onAction="#OneButton" prefHeight="33.0" prefWidth="57.0" text="Go" />
+      <Button fx:id="inventoryBtn" layoutX="299.0" layoutY="14.0" mnemonicParsing="false" onAction="#InventoryButton" prefHeight="46.0" prefWidth="102.0" text="Inventory" />
    </children>
 </AnchorPane>
