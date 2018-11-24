@@ -16,6 +16,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 /**
  *
@@ -28,6 +29,12 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private Button quitBtn;
+    
+     @FXML
+    private Button oneBtn;
+
+    @FXML
+    private Button inventoryBtn;
 
     @FXML
     void QuitButton(ActionEvent event) {
@@ -40,10 +47,18 @@ public class FXMLDocumentController implements Initializable {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("GameStart.fxml"));
         Parent root1 = (Parent) fxmlLoader.load();
         Stage stage = new Stage();
-        
+        stage.initStyle(StageStyle.UTILITY);
         stage.setScene(new Scene(root1));
-        stage.close();
         stage.show();
+    }
+
+    @FXML
+    void GangButton(ActionEvent event) {
+
+    }
+    
+    @FXML
+    void InventoryButton(ActionEvent event) {
         
     }
     @Override
