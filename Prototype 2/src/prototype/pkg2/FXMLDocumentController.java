@@ -42,7 +42,9 @@ public class FXMLDocumentController implements Initializable {
         Stage stage = new Stage();
         
         stage.setScene(new Scene(root1));
+        stage.close();
         stage.show();
+        
     }
     @Override
     public void initialize(URL url, ResourceBundle rb) {

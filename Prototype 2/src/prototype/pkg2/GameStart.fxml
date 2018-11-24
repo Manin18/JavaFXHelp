@@ -9,7 +9,7 @@
    <children>
       <ImageView fitHeight="500.0" fitWidth="700.0">
          <image>
-            <Image url="@../../../../SDUVejviser/Start.jpg" />
+            <Image url="@../../Start.jpg" />
          </image>
       </ImageView>
       <Button fx:id="gangBtn" layoutX="273.0" layoutY="318.0" mnemonicParsing="false" onAction="#GangButton" prefHeight="33.0" prefWidth="57.0" text="Go" />
