@@ -106,7 +106,7 @@ public class FXMLDocumentController implements Initializable {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Inventory.fxml"));
         Parent root1 = (Parent) fxmlLoader.load();
         Stage stage = new Stage();
-        stage.initStyle(StageStyle.UNDECORATED);
+        stage.initStyle(StageStyle.DECORATED);
         stage.setScene(new Scene(root1));
         stage.show();
     }
